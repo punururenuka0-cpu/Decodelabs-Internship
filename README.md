@@ -1,116 +1,191 @@
-# 🔐 CyberShield Password Intelligence System
+# 🌸 SecureCrypt Pro Lite
+
+## 🔐 Basic Encryption & Decryption System
+
+SecureCrypt Pro Lite is a cybersecurity project developed using Python, Tkinter, SQLite, and SHA-256 Hashing. It provides a simple and user-friendly graphical interface for encrypting and decrypting messages using the Caesar Cipher algorithm.
+
+---
 
 ## 📌 Project Overview
-CyberShield Password Intelligence System is a cybersecurity-based password analysis application developed using Python. The project helps users evaluate password strength, generate secure passwords, and securely store password history using SHA-256 hashing and SQLite database integration.
 
-The application is designed with a modern dark-themed GUI and focuses on secure password management practices.
+This project demonstrates important cybersecurity concepts such as:
 
----
+- Data Confidentiality
+- Encryption & Decryption
+- Password Security
+- Secure Data Storage
+- GUI Development
 
-# 🚀 Features
-
-✅ Password Strength Checker  
-✅ Password Crack Time Estimator  
-✅ Secure Password Generator  
-✅ SHA-256 Password Hashing  
-✅ Password History Detection  
-✅ SQLite Database Storage  
-✅ Dark Mode GUI  
-✅ Copy Password Feature  
-✅ Login Authentication System  
-✅ Cybersecurity-Based Design
+The application allows users to securely encrypt and decrypt messages while maintaining encryption history.
 
 ---
 
-# 🛠️ Technologies Used
+## ✨ Features
+
+### 🔑 Encryption & Decryption
+- Caesar Cipher Encryption
+- Caesar Cipher Decryption
+- User-defined Shift Key
+- Random Shift Key Generator
+
+### 🔒 Security Features
+- Password Protected Access
+- SHA-256 Password Hashing
+
+### 💾 Database Integration
+- SQLite Database
+- Stores Encryption History
+
+### 🎨 User-Friendly Interface
+- Modern GUI using Tkinter
+- White and Pink Theme
+- Easy to Use
+
+### 📤 Export Functionality
+- Save Results as TXT Files
+
+---
+
+## 🛠 Technologies Used
 
 - Python
 - Tkinter
 - SQLite
-- SHA-256 Hashing
-- Regular Expressions (Regex)
+- hashlib
+- Random
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```text
-project_folder/
-│
-├── password_manager.py
-├── passwords.db
-└── README.md
-```
+SecureCrypt-Pro-Lite/
 
----
+├── securecrypt_lite.py
 
-# ▶️ How to Run
+├── README.md
 
-## Step 1:
-Install Python
-
-## Step 2:
-Open terminal in project folder
-
-## Step 3:
-Run the following command
-
-```bash
-python password_manager.py
-```
+├── crypt.db
 
 ---
 
-# 🔑 Login Credentials
+## ⚙️ Installation
 
-Username:
-```text
-admin
-```
+### Step 1
+Install Python from:
 
-Password:
-```text
+https://www.python.org
+
+### Step 2
+Save the project file as:
+
+securecrypt_lite.py
+
+### Step 3
+Open Terminal or Command Prompt.
+
+### Step 4
+Run the application:
+
+python securecrypt_lite.py
+
+---
+
+## 🔐 Default Login Password
+
 admin123
-```
 
 ---
 
-# 🔐 Security Concepts Used
+## 🚀 How It Works
 
+### Encryption
+
+1. Enter a message.
+2. Enter a shift key.
+3. Click Encrypt.
+4. The encrypted message will be displayed.
+
+### Decryption
+
+1. Enter an encrypted message.
+2. Enter the same shift key.
+3. Click Decrypt.
+4. The original message will be restored.
+
+---
+
+## 📊 Example
+
+Input:
+
+HELLO WORLD
+
+Shift Key:
+
+3
+
+Encrypted Output:
+
+KHOOR ZRUOG
+
+Decrypted Output:
+
+HELLO WORLD
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped in understanding:
+
+- Cryptography Basics
+- Caesar Cipher Algorithm
 - Password Hashing
-- Secure Storage
-- Authentication System
-- Password Strength Analysis
-- Cybersecurity Principles
+- GUI Development
+- Database Management
+- Cybersecurity Fundamentals
 
 ---
 
-# 🎯 Future Improvements
+## 🔮 Future Enhancements
 
-- AI-Based Password Suggestions
-- OTP Authentication
-- Cloud Database Integration
-- Face Recognition Login
-- Email Breach Detection
-- Web Deployment using Flask
-
----
-
-# 📖 Learning Outcomes
-
-Through this project, I learned:
-
-- Python GUI Development
-- Cybersecurity Basics
-- Database Integration
-- Secure Password Management
-- Hashing Techniques
-- Authentication Systems
+- AES Encryption
+- Theme Switcher
+- User Registration System
+- Dashboard Analytics
+- Password Strength Meter
+- Email OTP Verification
 
 ---
 
-# 👨‍💻 Developed By
+## 📚 Conclusion
 
-Renuka Punuru
+SecureCrypt Pro Lite demonstrates the practical implementation of cybersecurity concepts through a graphical application. The project combines encryption, password security, database management, and user-friendly design to create a simple yet effective security tool.
 
-Cybersecurity & Python Enthusiast
+---
+
+## 👩‍💻 Developed By
+
+Renuka
+
+Cyber Security Internship Project
+
+Batch 2026
+
+---
+
+## ⭐ Project Highlights
+
+✅ GUI-Based Application
+
+✅ Caesar Cipher Encryption
+
+✅ SHA-256 Hashing
+
+✅ SQLite Database
+
+✅ Export Feature
+
+✅ User-Friendly Design
+
+✅ Cybersecurity Concepts Implemented
